@@ -12,7 +12,8 @@
  * sumDouble(5, 5); // 20
  */
 export function sumDouble(num1, num2) {
-  /* TODO */
+  if (num1 === num2)
+    return (num1 + num2) * 2
 }
 
 /**
@@ -28,7 +29,8 @@ export function sumDouble(num1, num2) {
  * makes10(4, 4); // false
  */
 export function makes10(num1, num2) {
-  /* TODO */
+  if (num1 === 10 || num2 === 10 || num1 + num2 === 10)
+    return true; 
 }
 
 /**
@@ -46,7 +48,8 @@ export function makes10(num1, num2) {
  * near100(105, 10); // true
  */
 export function near100(n, distance) {
-  /* TODO */
+  if (n <= distance ) 
+    return true;
 }
 
 /**
@@ -63,7 +66,7 @@ export function near100(n, distance) {
  * isMultiple35(7); // false
  */
 export function isMultiple35(n) {
-  /* TODO */
+  return n %3 === 0 || n % 5 === 0;
 }
 
 /**
@@ -81,7 +84,7 @@ export function isMultiple35(n) {
  * shareLastDigit(10, 21); // false
  */
 export function shareLastDigit(num1, num2) {
-  /* TODO */
+  
 }
 
 /**
@@ -98,7 +101,10 @@ export function shareLastDigit(num1, num2) {
  * isColdAndHot(10, 50); // false
  */
 export function isColdAndHot(temp1, temp2) {
-  /* TODO */
+  if (temp1 < 0 && temp2 \> 100);
+    return true;
+  if (temp1 \> 100 && temp2 < 0);
+    return true;
 }
 
 /**

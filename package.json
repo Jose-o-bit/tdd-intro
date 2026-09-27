@@ -5,6 +5,7 @@
     "test": "vitest"
   },
   "dependencies": {
+    "test": "^3.3.0",
     "vitest": "^4.0.15"
   }
 }
